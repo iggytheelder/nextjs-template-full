@@ -5,11 +5,11 @@ export default function JokeBlock() {
     const [joke, setJoke] = useState("")
 
     useEffect(() => {
-        fetch('/api/joke')
+      fetch('/api/joke')
         .then(res => res.json())
-        .then(jokeJSON=> {
-            setJoke(jokeJSON)
-        })
+        .then(jokeJSON => {
+          setJoke(jokeJSON)
+      })
     }, []);
 
     return (

@@ -19,11 +19,16 @@
   },
   "dependencies": {
     "cypress": "^10.0.3",
+    "iron-session": "^6.3.1",
     "next": "^12.1.4",
+    "prop-types": "^15.8.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "swr": "^2.2.1"
   },
   "devDependencies": {
-    "netlify-plugin-cypress": "2.2.1"
+    "@types/react": "18.2.20",
+    "netlify-plugin-cypress": "2.2.1",
+    "typescript": "5.1.6"
   }
 }
